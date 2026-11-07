@@ -1,0 +1,1 @@
+- [Existing database choice](database-choice.md) — user chose to connect existing MySQL, not create or migrate a database.
