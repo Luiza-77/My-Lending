@@ -1,0 +1,18 @@
+run = "php -S 0.0.0.0:5000"
+entrypoint = "index.html"
+
+modules = ["web", "php-8.2"]
+
+[nix]
+channel = "stable-25_05"
+
+[agent]
+expertMode = true
+
+[deployment]
+run = ["php", "-S", "0.0.0.0:5000"]
+deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 5000
+externalPort = 80

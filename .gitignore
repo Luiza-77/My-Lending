@@ -1,0 +1,8 @@
+/vendor/
+/.env
+/.env.*
+!/.env.example
+*.log
+/generated-artifacts/
+/database.sqlite
+/database.sqlite-*
